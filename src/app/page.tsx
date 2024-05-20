@@ -1,9 +1,6 @@
 "use client";
 
-import Image from "next/image";
 //import LegalMap from "./components/Map";
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
-import Map from "./components/Map";
 import { useEffect, useState } from "react";
 import SchoolMap from "./components/SchoolsMap";
 
