@@ -79,11 +79,11 @@ const SchoolMap: React.FC<SchoolMapProps> = ({ lat, lng }) => {
   return (
     <div>
       <div ref={mapRef} style={{ height: "100vh", width: "100%" }} />
-      <ul>
+      {/* <ul>
         {schools.map((school) => (
           <li key={school.place_id}>{school.name}</li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };
